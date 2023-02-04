@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# delete folders fol_1 and fol_2 if they exist
+rm -rf fol_1
+rm -rf fol_1
+
 # create folder fol_1
 mkdir fol_1
 
@@ -35,24 +39,24 @@ echo $'fol_1\nfol_2' > .gitignore
 # -- CODE USED FOR INITIAL COMMIT -- #
 
 # initialise local git repository
-git init
+# git init
 
 # rename master branch in local git repository to main
-git branch -m master main
+# git branch -m master main
 
 # check git status
-git status
+# git status
 
 # add remote repository as origin
-git remote add origin https://github.com/rubylennon/Week2-DevOpsSec-Lab.git
+# git remote add origin https://github.com/rubylennon/Week2-DevOpsSec-Lab.git
 
 # commit and push your files to GitHub from terminal
-git add .
-git commit -m "Week 2 Lab - First Commit"
-git push origin main
+# git add .
+# git commit -m "Week 2 Lab - First Commit"
+# git push origin main
 
 # pull files from origin
-git pull
+# git pull
 
 # check git status
-git status
+# git status
