@@ -89,3 +89,6 @@ echo $'[Week2-DevOpsSec-Lab Repository URL](https://github.com/rubylennon/Week2-
 
 # add note on how to run script in README.MD file
 echo $'---\nTo run the script.sh run: `bash script.sh`' >> README.MD
+
+# print the following
+echo Job completed
