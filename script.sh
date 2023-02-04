@@ -72,3 +72,20 @@ echo $'fol_1\nfol_2' > .gitignore
 
 # check git status
 # git status
+
+# -- CODE USED TO CREATE README FILE -- #
+
+# create README.MD file
+touch README.MD
+
+# add heading to README.MD file
+echo $'# Week 2 Lab – Bash & Git' >> README.MD
+
+# add name and student no. to README.MD file
+echo $'Ruby Lennon - *********' >> README.MD
+
+# add GitHub repository URL to README.MD file
+echo $'[Week2-DevOpsSec-Lab Repository URL](https://github.com/rubylennon/Week2-DevOpsSec-Lab)' >> README.MD
+
+# add note on how to run script in README.MD file
+echo $'---\nTo run the script.sh run: `bash script.sh`' >> README.MD
