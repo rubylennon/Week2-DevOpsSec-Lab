@@ -13,6 +13,12 @@ cd fol_1
 # create files 1_1.txt, 1_2.txt, 1_3.txt
 touch 1_1.txt 1_2.txt 1_3.txt
 
+# update files with read/write permissions for owners only
+chmod 700 *_1.txt *_3.txt
+
+# update files with read/write permissions for all users
+chmod 777 *_2.txt
+
 # go up one directory
 cd ..
 
@@ -24,6 +30,12 @@ cd fol_2
 
 # create files 2_1.txt, 2_2.txt, 2_3.txt
 touch 2_1.txt 2_2.txt 2_3.txt
+
+# update files with read/write permissions for owners only
+chmod 700 *_1.txt *_3.txt
+
+# update files with read/write permissions for all users
+chmod 777 *_2.txt
 
 # go up one directory
 cd ..
